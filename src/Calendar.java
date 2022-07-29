@@ -24,6 +24,9 @@ public class Calendar extends JFrame {
                 day = days[i];
                 sd = startingDay[i];
             }
+            if(ChooseTheMonth == null){
+                System.exit(0);
+            }
         }
         windows.setSize(1000, 800);
         windows.setLocationRelativeTo(null);

@@ -43,7 +43,7 @@ public class Design extends JPanel {
                for(int i=startingDay;i<nrzile-7;i++){
                    int z = i-startingDay+1;
                    int x1 = (i-row1) * 120;
-                   g2.drawString(String.valueOf(z),135+x1,y1);
+                   g2.drawString(String.valueOf(z),140+x1,y1);
                    if (i % 7 == 0) {
                        y1 += 75;
                        row1+= 7;
